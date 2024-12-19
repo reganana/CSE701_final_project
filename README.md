@@ -30,7 +30,7 @@ The `bigint` class is a custom implementation of arbitrary-precision integers, d
   - Subtraction
   - Multiplication
  
-  ### Comparison Operations
+### Comparison Operations
 - Tests relational and equality operators.
 
 ### Edge Cases
@@ -39,6 +39,36 @@ The `bigint` class is a custom implementation of arbitrary-precision integers, d
 
 ### Combined Operations
 - Verifies distributive properties, e.g., 
-  \[
-  (A + B) \times C = (A \times C) + (B \times C)
-  \]
+  (A + B) * C = (A * C) + (B * C)
+
+## Example Outputs
+
+Here’s an example of the program output:
+
+```bash
+Default constructor passed.
+Constructor with 64-bit integer passed.
+Empty string input passed.
+Non-numeric string input passed.
+Constructor with string passed.
+Addition (+) passed.
+Addition (+=) passed.
+Subtraction (-) passed.
+Subtraction (-=) passed.
+Multiplication (*) passed.
+Multiplication (*=) passed.
+Negation (-) passed.
+Comparison passed.
+Pre-increment (++a) passed.
+Post-increment (a++) passed.
+Pre-decrement (--a) passed.
+Post-decrement (a--) passed.
+Test combined addition and subtraction passed.
+Test combined multiplication, addition, and subtraction passed.
+Test large number addition passed.
+Test large number subtraction passed.
+
+Summary:
+Tests passed: 20
+Tests failed: 0
+All tests passed!
